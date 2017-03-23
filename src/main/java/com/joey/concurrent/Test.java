@@ -14,11 +14,6 @@ public class Test {
         Thread p1 = new Thread(new Producer(container,5,"p1"));
         Thread p2 = new Thread(new Producer(container,10,"p2"));
         c1.start();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         c2.start();
         c3.start();
         p1.start();
