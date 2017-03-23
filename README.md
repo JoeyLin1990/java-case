@@ -1,3 +1,3 @@
 # java-case
 #### 2017-3-23 
-加入生产者消费者模式
+Add case of Produce&Consume
